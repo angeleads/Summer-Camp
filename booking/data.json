@@ -1,0 +1,179 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Grand Plaza Hotel",
+      "location": "New York, NY",
+      "rating": 5,
+      "pricePerNight": 299,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1d/ae/e4/caption.jpg?w=900&h=500&s=1",
+      "amenities": ["Free WiFi", "Swimming Pool", "Fitness Center", "Restaurant", "Spa", "Room Service", "Concierge"],
+      "description": "Luxury hotel in the heart of Manhattan with stunning city views and world-class amenities.",
+      "rooms": 250,
+      "checkInTime": "3:00 PM",
+      "checkOutTime": "11:00 AM"
+    },
+    {
+      "id": 2,
+      "name": "Seaside Resort & Spa",
+      "location": "Miami, FL",
+      "rating": 4,
+      "pricePerNight": 199,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1d/ae/e4/caption.jpg?w=900&h=500&s=1",
+      "amenities": ["Free WiFi", "Beach Access", "Swimming Pool", "Restaurant", "Spa", "Water Sports"],
+      "description": "Beautiful beachfront resort with direct ocean access and tropical paradise vibes.",
+      "rooms": 180,
+      "checkInTime": "4:00 PM",
+      "checkOutTime": "12:00 PM"
+    },
+    {
+      "id": 3,
+      "name": "Mountain View Lodge",
+      "location": "Denver, CO",
+      "rating": 4,
+      "pricePerNight": 159,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1d/ae/e4/caption.jpg?w=900&h=500&s=1",
+      "amenities": ["Free WiFi", "Mountain Views", "Hiking Trails", "Restaurant", "Fireplace", "Ski Access"],
+      "description": "Cozy mountain lodge with breathtaking views and easy access to outdoor activities.",
+      "rooms": 120,
+      "checkInTime": "3:00 PM",
+      "checkOutTime": "11:00 AM"
+    },
+    {
+      "id": 4,
+      "name": "Downtown Business Hotel",
+      "location": "Chicago, IL",
+      "rating": 4,
+      "pricePerNight": 179,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1d/ae/e4/caption.jpg?w=900&h=500&s=1",
+      "amenities": ["Free WiFi", "Business Center", "Fitness Center", "Restaurant", "Meeting Rooms", "Airport Shuttle"],
+      "description": "Modern business hotel in downtown Chicago, perfect for corporate travelers.",
+      "rooms": 200,
+      "checkInTime": "3:00 PM",
+      "checkOutTime": "12:00 PM"
+    },
+    {
+      "id": 5,
+      "name": "Historic Boutique Inn",
+      "location": "San Francisco, CA",
+      "rating": 5,
+      "pricePerNight": 249,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1d/ae/e4/caption.jpg?w=900&h=500&s=1",
+      "amenities": ["Free WiFi", "Historic Architecture", "Rooftop Terrace", "Restaurant", "Wine Bar", "Concierge"],
+      "description": "Charming boutique hotel in a restored historic building with unique character.",
+      "rooms": 85,
+      "checkInTime": "4:00 PM",
+      "checkOutTime": "11:00 AM"
+    },
+    {
+      "id": 6,
+      "name": "Airport Express Hotel",
+      "location": "Los Angeles, CA",
+      "rating": 3,
+      "pricePerNight": 89,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1d/ae/e4/caption.jpg?w=900&h=500&s=1",
+      "amenities": ["Free WiFi", "Airport Shuttle", "24/7 Front Desk", "Business Center", "Fitness Center"],
+      "description": "Convenient and affordable hotel near LAX airport, perfect for travelers.",
+      "rooms": 150,
+      "checkInTime": "3:00 PM",
+      "checkOutTime": "11:00 AM"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "hotelId": 1,
+      "hotelName": "Grand Plaza Hotel",
+      "hotelLocation": "New York, NY",
+      "guestName": "John Smith",
+      "guestEmail": "john.smith@example.com",
+      "guestPhone": "+1-555-0123",
+      "checkIn": "2025-02-15",
+      "checkOut": "2025-02-18",
+      "guests": 2,
+      "nights": 3,
+      "totalPrice": 897,
+      "specialRequests": "Late check-in requested",
+      "status": "confirmed",
+      "bookingDate": "2025-01-20T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "hotelId": 2,
+      "hotelName": "Seaside Resort & Spa",
+      "hotelLocation": "Miami, FL",
+      "guestName": "Sarah Johnson",
+      "guestEmail": "sarah.johnson@example.com",
+      "guestPhone": "+1-555-0456",
+      "checkIn": "2025-03-10",
+      "checkOut": "2025-03-15",
+      "guests": 4,
+      "nights": 5,
+      "totalPrice": 995,
+      "specialRequests": "Ocean view room preferred",
+      "status": "confirmed",
+      "bookingDate": "2025-01-25T14:15:00Z"
+    }
+  ],
+  "amenities": [
+    {
+      "id": 1,
+      "name": "Free WiFi",
+      "icon": "📶",
+      "category": "connectivity"
+    },
+    {
+      "id": 2,
+      "name": "Swimming Pool",
+      "icon": "🏊",
+      "category": "recreation"
+    },
+    {
+      "id": 3,
+      "name": "Fitness Center",
+      "icon": "💪",
+      "category": "wellness"
+    },
+    {
+      "id": 4,
+      "name": "Restaurant",
+      "icon": "🍽️",
+      "category": "dining"
+    },
+    {
+      "id": 5,
+      "name": "Spa",
+      "icon": "💆",
+      "category": "wellness"
+    },
+    {
+      "id": 6,
+      "name": "Business Center",
+      "icon": "💼",
+      "category": "business"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "popular": true
+    },
+    {
+      "id": 2,
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "popular": true
+    },
+    {
+      "id": 3,
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA",
+      "popular": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YourWebsite - Hotel Booking System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">YourLogo</h1>
+        <nav class="nav">
+          <a href="#search" onclick="showSection('search')">Search</a>
+          <a href="#bookings" onclick="showSection('bookings')">My Bookings</a>
+          <a href="#hotels" onclick="showSection('hotels')">Hotels</a>
+        </nav>
+        <div class="user-info">
+          <span>Welcome, <strong>Guest User</strong></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Search Section -->
+        <section id="search-section" class="section active">
+          <!-- Hero Section -->
+          <div class="hero">
+            <h2>Find Your Perfect Stay</h2>
+            <p>Book amazing hotels at the best prices</p>
+          </div>
+
+          <!-- Search Form -->
+          <div class="search-container">
+            <h3>Search Hotels</h3>
+            <form id="search-form" class="search-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="destination">Destination</label>
+                  <input
+                    type="text"
+                    id="destination"
+                    placeholder="Where are you going?"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="check-in">Check-in Date</label>
+                  <input type="date" id="check-in" required />
+                </div>
+                <div class="form-group">
+                  <label for="check-out">Check-out Date</label>
+                  <input type="date" id="check-out" required />
+                </div>
+                <div class="form-group">
+                  <label for="guests">Guests</label>
+                  <select id="guests" required>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5+ Guests</option>
+                  </select>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-large">
+                Search Hotels
+              </button>
+            </form>
+          </div>
+
+          <!-- Search Results -->
+          <div class="search-results" id="search-results" style="display: none">
+            <h3>Available Hotels</h3>
+            <div class="hotels-grid" id="hotels-grid">
+              <!-- Search results will be displayed here -->
+            </div>
+          </div>
+        </section>
+
+        <!-- My Bookings Section -->
+        <section id="bookings-section" class="section">
+          <div class="bookings-container">
+            <h2>My Bookings</h2>
+            <div class="bookings-list" id="bookings-list">
+              <!-- User bookings will be displayed here -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Hotels Section -->
+        <section id="hotels-section" class="section">
+          <div class="hotels-container">
+            <h2>Featured Hotels</h2>
+            <div class="hotels-showcase" id="hotels-showcase">
+              <!-- All hotels will be displayed here -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeBookingModal()">&times;</span>
+        <h2>Book Your Stay</h2>
+        <div id="booking-details">
+          <!-- Booking form will be inserted here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 BookEasy. Your trusted travel companion.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

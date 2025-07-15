@@ -260,7 +260,7 @@ function getSampleProducts() {
       name: "Laptop",
       description: "High-performance laptop for work and gaming",
       price: 999.99,
-      image: "https://p2-ofp.static.pub//fes/cms/2024/05/28/ltcbwi1vzj7wqbv8hu2rs73a2tqx1r306860.png",
+      image: "https://p2-ofp.static.pub//fes/cms/2025/05/28/ltcbwi1vzj7wqbv8hu2rs73a2tqx1r306860.png",
       category: "Electronics",
     },
     {
