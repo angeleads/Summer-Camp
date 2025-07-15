@@ -1,0 +1,83 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "High-performance laptop perfect for work and gaming",
+      "price": 999.99,
+      "image": "https://p2-ofp.static.pub//fes/cms/2024/05/28/ltcbwi1vzj7wqbv8hu2rs73a2tqx1r306860.png",
+      "category": "Electronics",
+      "stock": 15,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Latest smartphone with amazing camera and long battery life",
+      "price": 699.99,
+      "image": "https://thumb.pccomponentes.com/w-530-530/articles/1058/10581419/1950-apple-iphone-14-256gb-azul-libre-7740d711-9a03-4206-af14-6824236f8ecd.jpg",
+      "category": "Electronics",
+      "stock": 25,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "description": "Premium noise-canceling wireless headphones",
+      "price": 199.99,
+      "image": "https://m.media-amazon.com/images/I/61fxPWFu6aL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "category": "Electronics",
+      "stock": 30,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "Smart Watch",
+      "description": "Fitness tracking smartwatch with heart rate monitor",
+      "price": 299.99,
+      "image": "https://img01.huaweifile.com/eu/es/huawei/pms/uomcdn/ESHW/pms/202506/gbom/6942103155055/800_800_2D8716633B4EEC8A4F57D29EE317DCE9mp.png",
+      "category": "Electronics",
+      "stock": 20,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Tablet",
+      "description": "10-inch tablet perfect for reading and entertainment",
+      "price": 399.99,
+      "image": "https://www.backmarket.es/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D640/https://d2e6ccujb3mkqf.cloudfront.net/ab6437ac-22d8-493e-ad92-93e4f415f735-1_d328e945-b493-474f-b154-f3f865ed0f6c.jpg",
+      "category": "Electronics",
+      "stock": 12,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Speaker",
+      "description": "Portable waterproof Bluetooth speaker",
+      "price": 79.99,
+      "image": "https://thumb.pccomponentes.com/w-530-530/articles/1074/10747367/1628-jbl-charge-5-altavoz-bluetooth-40w-azul.jpg",
+      "category": "Electronics",
+      "stock": 40,
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Latest electronic devices and gadgets"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "description": "Fashion and apparel for all occasions"
+    },
+    {
+      "id": 3,
+      "name": "Home & Garden",
+      "description": "Everything for your home and garden needs"
+    }
+  ],
+  "orders": [],
+  "users": []
+}
