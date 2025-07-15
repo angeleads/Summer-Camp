@@ -185,5 +185,6 @@ const total = cart.reduce((sum, item) => sum + item.price, 0);
 4. Connect to a real database
 5. Add user authentication
 
-Good luck everyone <3
-- EPITECH BARCELONA TEAM
+Good luck everyone!
+From EPITECH Barcelona team :)
+\`\`\`
