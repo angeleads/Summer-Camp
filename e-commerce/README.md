@@ -17,14 +17,14 @@ Through this you will learn:
 - Event handling in JavaScript
 
 ## 📁 Project Structure
-\`\`\`
+```
 ecommerce/
 ├── index.html          # Main HTML file
 ├── style.css           # CSS styling
 ├── script.js           # JavaScript functionality
 ├── data.json           # Product data
 └── README.md           # This documentation
-\`\`\`
+```
 
 ## 🚀 Features
 - **Product Display**: Shows products from JSON data
@@ -66,42 +66,42 @@ Our code holds:
 What about JSON Data?
 
 Well JSON, which stands for JavaScript Object Notation, is a way to organize and store data in a text format. It's like a structured list of information, where each piece of information has a name (key) and a corresponding value. JSON is commonly used to exchange data between a server and a web application, making it easy for different parts of a system to understand and use the same information. 
-\`\`\`json
+```
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "Product Name",
-      "description": "Product description",
-      "price": 99.99,
-      "image": "image-url",
-      "category": "Category",
-      "stock": 10,
-      "featured": true
-    }
-  ]
+    "products": [
+        {
+        "id": 1,
+        "name": "Product Name",
+        "description": "Product description",
+        "price": 99.99,
+        "image": "image-url",
+        "category": "Category",
+        "stock": 10,
+        "featured": true
+        }
+    ]
 }
-\`\`\`
+```
 
 ## 🛠️ CRUD Operations
 
 ### Create (Add Product)
-\`\`\`javascript
+```javascript
 function addProduct(newProduct) {
     products.push(newProduct);
     displayProducts();
 }
-\`\`\`
+```
 
 ### Read (Display Products)
-\`\`\`javascript
+```javascript
 function displayProducts() {
     // Renders all products to the DOM
 }
-\`\`\`
+```
 
 ### Update (Modify Product)
-\`\`\`javascript
+```javascript
 function updateProduct(id, updatedData) {
     const index = products.findIndex(p => p.id === id);
     if (index !== -1) {
@@ -109,27 +109,27 @@ function updateProduct(id, updatedData) {
         displayProducts();
     }
 }
-\`\`\`
+```
 
 ### Delete (Remove Product)
-\`\`\`javascript
+```javascript
 function deleteProduct(id) {
     products = products.filter(p => p.id !== id);
     displayProducts();
 }
-\`\`\`
+```
 
 ## 📚 Key Concepts Explained
 
 ### 1. Event Listeners
-\`\`\`javascript
+```javascript
 document.addEventListener('DOMContentLoaded', function() {
     // Code runs when page is fully loaded
 });
-\`\`\`
+```
 
 ### 2. Async/Await for Data Loading
-\`\`\`javascript
+```javascript
 async function loadProducts() {
     try {
         const response = await fetch('data.json');
@@ -139,10 +139,10 @@ async function loadProducts() {
         // Handle errors
     }
 }
-\`\`\`
+```
 
 ### 3. Array Methods
-\`\`\`javascript
+```javascript
 // Find a product
 const product = products.find(p => p.id === productId);
 
@@ -151,7 +151,7 @@ const filteredProducts = products.filter(p => p.category === 'Electronics');
 
 // Calculate total
 const total = cart.reduce((sum, item) => sum + item.price, 0);
-\`\`\`
+```
 
 ## 🎨 Customization Ideas
 1. **Add Categories**: Filter products by category
@@ -187,4 +187,4 @@ const total = cart.reduce((sum, item) => sum + item.price, 0);
 
 Good luck everyone!
 From EPITECH Barcelona team :)
-\`\`\`
+```
