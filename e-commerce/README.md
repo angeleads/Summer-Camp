@@ -68,7 +68,7 @@ What about JSON Data?
 Well JSON, which stands for JavaScript Object Notation, is a way to organize and store data in a text format. It's like a structured list of information, where each piece of information has a name (key) and a corresponding value. JSON is commonly used to exchange data between a server and a web application, making it easy for different parts of a system to understand and use the same information. 
 
 In our case this is the structure of our JSON:
-```
+```json
 {
     "products": [
         {
@@ -188,5 +188,5 @@ const total = cart.reduce((sum, item) => sum + item.price, 0);
 5. Add user authentication
 
 If you have any questions please feel free to ask the teachers around you! We wish you all good luck and A LOT of fun <3
+
 EPITECH BARCELONA TEAM
-```

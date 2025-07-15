@@ -108,7 +108,7 @@ function createHotelCard(hotel, searchParams = null) {
   const amenitiesHtml = hotel.amenities.map((amenity) => `<span class="amenity">${amenity}</span>`).join("")
 
   card.innerHTML = `
-        <img src="${hotel.image}" alt="${hotel.name}" class="hotel-image" onerror="this.src='/https://www.google.com/url?sa=i&url=https%3A%2F%2Fsyria.adra.cloud%2Fcategory%2Fimpact_education%2F&psig=AOvVaw3C_BU7pX-aCLlKJ_7sm3Br&ust=1752657742825000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDAyoTFvo4DFQAAAAAdAAAAABAj?height=200&width=300'">
+        <img src="${hotel.image}" alt="${hotel.name}" class="hotel-image" onerror="this.src='https://semantic-ui.com/images/wireframe/image.png'">
         <div class="hotel-info">
             <h3 class="hotel-name">${hotel.name}</h3>
             <div class="hotel-location">📍 ${hotel.location}</div>
@@ -456,7 +456,7 @@ function loadSampleData() {
       location: "New York, NY",
       rating: 5,
       pricePerNight: 299,
-      image: "/https://www.google.com/url?sa=i&url=https%3A%2F%2Fsyria.adra.cloud%2Fcategory%2Fimpact_education%2F&psig=AOvVaw3C_BU7pX-aCLlKJ_7sm3Br&ust=1752657742825000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDAyoTFvo4DFQAAAAAdAAAAABAj?height=200&width=300",
+      image: "https://semantic-ui.com/images/wireframe/image.png",
       amenities: ["WiFi", "Pool", "Gym", "Restaurant", "Spa"],
     },
     {
@@ -465,7 +465,7 @@ function loadSampleData() {
       location: "Miami, FL",
       rating: 4,
       pricePerNight: 199,
-      image: "/https://www.google.com/url?sa=i&url=https%3A%2F%2Fsyria.adra.cloud%2Fcategory%2Fimpact_education%2F&psig=AOvVaw3C_BU7pX-aCLlKJ_7sm3Br&ust=1752657742825000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDAyoTFvo4DFQAAAAAdAAAAABAj?height=200&width=300",
+      image: "https://semantic-ui.com/images/wireframe/image.png",
       amenities: ["WiFi", "Beach Access", "Pool", "Restaurant"],
     },
   ]

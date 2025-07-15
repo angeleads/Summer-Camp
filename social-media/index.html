@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YourWebsite - Simple Social Media</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">YourLogo</h1>
+        <nav class="nav">
+          <a href="#feed" onclick="showSection('feed')">Feed</a>
+          <a href="#profile" onclick="showSection('profile')">Profile</a>
+          <a href="#friends" onclick="showSection('friends')">Friends</a>
+        </nav>
+        <div class="user-info">
+          <span>Welcome, <strong id="current-user">John Doe</strong></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Feed Section -->
+        <section id="feed-section" class="section active">
+          <div class="content-wrapper">
+            <!-- Create Post -->
+            <div class="create-post">
+              <h2>What's on your mind?</h2>
+              <form id="post-form">
+                <textarea
+                  id="post-content"
+                  placeholder="Share something interesting..."
+                  required
+                ></textarea>
+                <div class="post-actions">
+                  <button type="submit" class="btn btn-primary">Post</button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Posts Feed -->
+            <div class="posts-container">
+              <h2>Recent Posts</h2>
+              <div id="posts-feed">
+                <!-- Posts will be loaded here -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section id="profile-section" class="section">
+          <div class="profile-container">
+            <div class="profile-header">
+              <img
+                src=""
+                alt="Profile Picture"
+                class="profile-picture"
+              />
+              <div class="profile-info">
+                <h2 id="profile-name">John Doe</h2>
+                <p id="profile-bio">Web developer and tech enthusiast</p>
+                <div class="profile-stats">
+                  <span><strong id="posts-count">0</strong> Posts</span>
+                  <span><strong id="friends-count">0</strong> Friends</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-posts">
+              <h3>My Posts</h3>
+              <div id="user-posts">
+                <!-- User's posts will be displayed here -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Friends Section -->
+        <section id="friends-section" class="section">
+          <div class="friends-container">
+            <h2>Friends</h2>
+            <div class="friends-grid" id="friends-grid">
+              <!-- Friends will be loaded here -->
+            </div>
+
+            <div class="friend-suggestions">
+              <h3>People You May Know</h3>
+              <div id="suggestions-grid">
+                <!-- Friend suggestions will be loaded here -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2024 SocialConnect. Connect with friends and share your world.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

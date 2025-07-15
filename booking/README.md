@@ -239,5 +239,5 @@ function updatePrice() {
 - **Data Validation**: Form validation and error handling
 
 If you have any questions please feel free to ask the teachers around you! We wish you all good luck and A LOT of fun <3
+
 EPITECH BARCELONA TEAM
-```

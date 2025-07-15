@@ -1,0 +1,139 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Alice Johnson",
+      "authorId": 2,
+      "content": "Just finished reading an amazing book about web development! Highly recommend it to anyone starting their coding journey. The concepts are explained so clearly and the examples are practical. 📚💻",
+      "timestamp": "2024-01-15T10:30:00Z",
+      "likes": 8,
+      "comments": [
+        "Great recommendation! What's the title?",
+        "I've been looking for a good web dev book!",
+        "Thanks for sharing!"
+      ],
+      "liked": false
+    },
+    {
+      "id": 2,
+      "author": "Bob Smith",
+      "authorId": 3,
+      "content": "Beautiful sunset today! Sometimes it's important to step away from the screen and enjoy nature. This view from my balcony never gets old. 🌅",
+      "timestamp": "2024-01-15T18:45:00Z",
+      "likes": 15,
+      "comments": [
+        "Gorgeous photo!",
+        "Where was this taken?",
+        "Nature is the best therapy"
+      ],
+      "liked": true
+    },
+    {
+      "id": 3,
+      "author": "Carol Davis",
+      "authorId": 4,
+      "content": "Excited to announce that I just got my first job as a junior developer! Thank you to everyone who supported me during this journey. The coding bootcamp was challenging but so worth it! 🎉👩‍💻",
+      "timestamp": "2024-01-14T14:20:00Z",
+      "likes": 23,
+      "comments": [
+        "Congratulations! Well deserved!",
+        "So proud of you!",
+        "Your hard work paid off!"
+      ],
+      "liked": false
+    },
+    {
+      "id": 4,
+      "author": "David Wilson",
+      "authorId": 5,
+      "content": "Working on a new React project and loving the new hooks! The way useState and useEffect work together is just beautiful. Clean code is happy code! ⚛️",
+      "timestamp": "2024-01-14T09:15:00Z",
+      "likes": 6,
+      "comments": [
+        "React hooks are game changers!",
+        "Would love to see your project"
+      ],
+      "liked": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+      "bio": "Web developer and tech enthusiast",
+      "joinDate": "2023-06-15",
+      "friends": [2, 3, 5],
+      "isFriend": false
+    },
+    {
+      "id": 2,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+      "bio": "Book lover and aspiring developer",
+      "joinDate": "2023-08-20",
+      "mutualFriends": 3,
+      "isFriend": true
+    },
+    {
+      "id": 3,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+      "bio": "Nature photographer and outdoor enthusiast",
+      "joinDate": "2023-07-10",
+      "mutualFriends": 5,
+      "isFriend": true
+    },
+    {
+      "id": 4,
+      "name": "Carol Davis",
+      "email": "carol.davis@example.com",
+      "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+      "bio": "Junior developer, bootcamp graduate",
+      "joinDate": "2023-12-01",
+      "mutualFriends": 2,
+      "isFriend": false
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "email": "david.wilson@example.com",
+      "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+      "bio": "React enthusiast and frontend developer",
+      "joinDate": "2023-05-30",
+      "mutualFriends": 4,
+      "isFriend": true
+    },
+    {
+      "id": 6,
+      "name": "Emma Brown",
+      "email": "emma.brown@example.com",
+      "avatar": "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg",
+      "bio": "UI/UX designer with a passion for clean interfaces",
+      "joinDate": "2023-09-15",
+      "mutualFriends": 1,
+      "isFriend": false
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": "Bob Smith",
+      "authorId": 3,
+      "content": "Great recommendation! What's the title?",
+      "timestamp": "2024-01-15T11:00:00Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": "Carol Davis",
+      "authorId": 4,
+      "content": "I've been looking for a good web dev book!",
+      "timestamp": "2024-01-15T11:30:00Z"
+    }
+  ]
+}
